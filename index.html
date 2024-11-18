@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Extractor Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        pre {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #003d80;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>File Extractor Tool</h1>
+        <p>This tool processes files from multiple folders, renames them based on an Excel mapping, and saves them to a destination folder.</p>
+        
+        <h2>Steps to Use</h2>
+        <ol>
+            <li>Download and install <a href="https://www.python.org/downloads/" target="_blank">Python</a> if it's not already installed.</li>
+            <li>Clone this repository to your local machine:
+                <pre>git clone https://github.com/yourusername/your-repository-name.git</pre>
+            </li>
+            <li>Navigate to the cloned folder:
+                <pre>cd your-repository-name</pre>
+            </li>
+            <li>Install required dependencies:
+                <pre>pip install -r requirements.txt</pre>
+            </li>
+            <li>Run the script using:
+                <pre>python file_extractor.py --source_folders "path_to_folder1" "path_to_folder2" --destination_folder "path_to_destination" --excel_file "path_to_excel.xlsx"</pre>
+            </li>
+        </ol>
+
+        <h2>Example Command</h2>
+        <pre>
+python file_extractor.py --source_folders "/Users/YourName/Folder1" "/Users/YourName/Folder2" \
+    --destination_folder "/Users/YourName/Destination" \
+    --excel_file "/Users/YourName/mapping.xlsx"
+        </pre>
+
+        <h2>Need Help?</h2>
+        <p>If you encounter any issues, feel free to check out the <a href="https://github.com/yourusername/your-repository-name/issues" target="_blank">GitHub Issues</a> page.</p>
+        <a href="https://github.com/yourusername/your-repository-name" class="button" target="_blank">Visit Repository</a>
+    </div>
+</body>
+</html>
